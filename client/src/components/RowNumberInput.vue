@@ -22,10 +22,6 @@
 
 <script>
 export default {
-  model: {
-    prop: 'value',
-    event: 'change'
-  },
   props: ['value', 'placeholder', 'min', 'max', 'percision', 'required'],
   data() {
     return {
@@ -87,5 +83,4 @@ export default {
   color: #969799;
 }
 </style>
-
 

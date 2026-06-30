@@ -12,10 +12,6 @@
 
 <script>
 export default {
-  model: {
-    prop: 'index',
-    event: 'change'
-  },
   props: ['index', 'title', 'columns', 'placeholder'],
   data() {
     return {
